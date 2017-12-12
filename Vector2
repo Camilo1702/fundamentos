@@ -1,0 +1,29 @@
+#include "stdafx.h"
+
+#include <iostream>
+
+#include "conio.h"
+
+#define MAX 100
+
+
+
+using namespace std;
+
+
+
+void cargar (int vector[], int n);
+
+void mostrar (int vector[], int n);
+
+void ordenar (int vector[], int n);
+
+int buscar (int vector[], int n, int &k);
+
+
+
+void main()
+
+{
+
+	int vector [MAX], n, opcion, k, elemento;
